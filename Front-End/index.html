@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Cadastro JobsNET</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="logo.png" alt="Logo JobsNET">
+        </div>
+        
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/gabysilv/"><strong><i>Fale Conosco</i></strong></a>
+            </li>
+            <li>
+                <i><a href="#subtitulo"><strong>Cadastre-se!</strong></a></i>
+            </li>
+        </ul>
+
+    </header>
+
+    <capa>
+        <div class="flex-capa">
+            <div class="imagem">
+                <img src="capa.png" alt="capa JobsNET">
+            </div>
+
+            <div class="descricao">
+                <h1>Procure uma oportunidade de emprego</h1>
+                <div class="title-decoration"></div>
+                <p id="descricao">Conheça o banco de dados da JobsNET <br><br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,<br> 
+                    accusamus earum tenetur facere delectus rerum architecto quidem vel voluptas praesentium quaerat deserunt placeat enim asperiores,<br>
+                     quod eum commodi in eius?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae minima temporibus accusamus voluptatem. <br>
+                     Fuga hic sed corrupti quasi rem ipsum illo nulla illum cupiditate minus vero delectus, quaerat est. Sed.lorem
+                </p>
+            </div>
+        </div>
+    </capa>
+
+
+    <div>
+        <h1 id="titulo"> Cadastre seu currículo </h1>
+        <p id="subtitulo"> Venha fazer parte do nosso banco de dados :) </p>
+        <br>
+    </div>
+
+
+    <form>
+
+        <fieldset id="grupo">
+
+            <h1 id="subtitulo">Dados Pessoais</h1>
+
+            <div class="flex-nome">
+                <div class = "campo">
+                <label for="nome"> <strong>Nome</strong><span style="color:red">*</span></label>
+                <input type = "text" required name = "nome" id = "nome">
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"> <strong>Sobrenome</strong> </label>
+                    <input type = "text" name = "sobrenome" id = "sobrenome">
+                </div>
+            </div>
+
+            
+            <div class = flex-campo2>
+                <div class="campo">
+
+                    <label for="phone"> <strong>Celular</strong> </label><br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" ><br>
+
+                </div>
+                <div class="campo">
+                    <label for="cargo"> <strong>Cargo pretendido</strong><span style="color:red">*</span> </label>
+                    <input type = "text" required name = "cargo" id = "cargo">
+                </div>
+
+            </div>
+
+            <div class="flex-campo3">
+                <div class="campo">
+                    <label for="nascimento"> <strong>Data de nascimento</strong> </label><br>
+                    <input type = "date" name = "nascimento" id = "nascimento">
+                </div>
+                <div class="campo">
+                    <label for="estadocivil"> <strong>Estado Civil</strong> </label>
+                    <select id="estadocivil">
+                        <option selected disabled value =""> Selecione </option>
+                        <option> Solteiro/a </option>
+                        <option> Casado/a </option>
+                        <option> Viúvo/a </option>
+                        <option> Outros </option>
+                    </select>
+                
+                </div>
+                <div class="campo">
+                    <label for="sexo"> <strong>Sexo</strong> </label>
+                    <select id="sexo">
+                        <option selected disabled value =""> Selecione </option>
+                        <option> Mulher cis </option>
+                        <option> Homem cis </option>
+                        <option> Mulher trans </option>
+                        <option> Homem trans </option>
+                        <option> Não-binário </option>
+                        <option> Outros </option>
+                    </select>
+                </div>
+                </div>
+
+                <div class="flex-campocep">
+                    <div class="campo">
+                        <label for="CEP"> <strong>CEP</strong><span style="color:red">*</span> 
+                        <br>
+                            <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}" placeholder="00000-000"/>
+                            </label>
+                    </div>
+                    
+                                <div class="campo">
+                    <label for="endereco"> <strong>Endereço</strong> </label>
+                    <input type = "text" name = "endereco" id = "endereco">
+                                </div>
+                    
+                                <div class="campo">
+                    <label for="bairro"> <strong>Bairro</strong> </label>
+                    <input type = "text" name = "bairro" id = "bairro">
+                                </div>
+                                
+                                <div class="campo">
+                    <label for="cidade"> <strong>Cidade</strong> </label>
+                    <input type = "text" name = "cidade" id = "cidade">
+                                </div>
+                </div>
+
+            <div class="flex-campo4">
+                <div class="campo">
+                    <label for="email"> <strong>E-mail</strong> </label>
+                    <input type = "email" name = "email" id = "email">
+
+                
+                </div>
+                
+                <div class="campo">
+                    <label for="linkedin"> <strong>LinkedIn</strong> </label><br>
+                    <input type = "url" name = "linkedin" id = "linkedin">
+                </div>
+                <div class="campo">
+                    <label for="github"> <strong>GitHub</strong> </label><br>
+                    <input type = "url" name = "github" id = "github">
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset id="grupo">
+            <h1 id="subtitulo"> Documentos </h1>
+
+            <div class="flex-campodocs">
+                <div class="campo">
+                    <label for="cpf"> <strong>CPF</strong><span style="color:red">*</span> </label><br>
+                    <input name="cpf" id="cpf" required placeholder="00000000000"/>
+                </div>
+                <div class="campo">
+                    <label for="rg"> <strong>Identificação</strong> </label><br>
+                    <input name="rg" id="rg" placeholder="000000000"/><br>
+                    <small> Insira seu RG </small><br>
+                </div>
+            </div>
+        </fieldset>
+
+            <h2 id="subtitulo"> Fale sobre você! </h2>
+            
+                <div class="campo">
+                    <br>
+                    <label> <strong>Conte-nos um pouco da sua experiência e seus objetivos:</strong> </label>
+                    <br>
+                    <textarea row="6" style="width: 40em"
+                    id="experiencia" name="experiencia"></textarea>
+                </div>
+                <button type="submit" class="botao"> Enviar </button>
+        
+    </form>
+</body>
+</html>
