@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     
+
     <title>Cadastro JobsNET</title>
 </head>
 <body>
@@ -45,7 +46,7 @@
         </div>
     </capa>
 
-
+    
     <div>
         <h1 id="titulo"> Cadastre seu currículo </h1>
         <p id="subtitulo"> Venha fazer parte do nosso banco de dados :) </p>
@@ -53,7 +54,7 @@
     </div>
 
 
-    <form>
+    <form name="formulario" id="container" onchange="formulario()">
 
         <fieldset id="grupo">
 
@@ -187,5 +188,9 @@
                 <button type="submit" class="botao"> Enviar </button>
         
     </form>
+    <footer>
+        <p><strong>Desenvolvido por <a href="https://www.linkedin.com/in/gabysilv/" id="linkedin"> Gabriela Silveira </a> para o programa Start Tech da Gama Academy</strong></p>
+    </footer>
 </body>
+<script src=script.js></script>
 </html>
