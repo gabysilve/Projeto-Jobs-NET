@@ -1,2 +1,2 @@
 # Projeto-Jobs-NET
- Projeto de site de gestão de vagas para o curso Start Tech da Gama Academy
+Projeto de front-end de gestão de vagas para a empresa fictícia Jobs NET
