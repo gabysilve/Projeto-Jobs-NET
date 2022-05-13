@@ -20,7 +20,8 @@
 }
 
 #experiencia{
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
 }
 
@@ -79,6 +80,10 @@ header{
 }
 header ul{
     display: flex;
+}
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 header ul li a:hover {
     color: #bc6c25 ;
