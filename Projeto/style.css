@@ -20,7 +20,8 @@
 }
 
 #experiencia{
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
 }
 
@@ -67,23 +68,28 @@ background-color: #6B705C;
 margin: 15px 0 1em 0;
 }
 
-
 header{
     display:flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 8px 8px 15px 8px #bc6c25;
     background: #283618;
-
-
 }
+
 header ul{
     display: flex;
 }
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 header ul li a:hover {
     color: #bc6c25 ;
     text-decoration: #dda15e;
 }
+
 header ul li{
     padding: 5px;
     transition: 300ms;
@@ -91,6 +97,12 @@ header ul li{
 
 input, select, textarea, button{
     border-radius: 5px;
+    border-color: #283618!important;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: white!important;
+    background-color: #bc6c25;
 }
 
 
@@ -104,8 +116,6 @@ input, select, textarea, button{
     padding: 50px 50px 50px 50px;
     background: #FFFFFF;
 }
-
-
 
 .flex-nome {
  display: flex;
@@ -157,7 +167,6 @@ input, select, textarea, button{
     margin: 1em;
 }
 
-
 .campo.label{
     margin-bottom: 0.2em;
     color:#6B705C;
@@ -180,7 +189,6 @@ fieldset.grupo .campo{
 .campo input:focus, .campo textarea:focus {
     background:#bfc7a6;
 }
-
 
 .botao {
     font-size: 1.2em;
