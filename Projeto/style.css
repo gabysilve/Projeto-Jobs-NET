@@ -89,7 +89,6 @@ header ul li a:hover {
     color: #bc6c25 ;
     text-decoration: #dda15e;
 }
-
 header ul li{
     padding: 5px;
     transition: 300ms;
@@ -97,14 +96,7 @@ header ul li{
 
 input, select, textarea, button{
     border-radius: 5px;
-    border-color: #283618!important;
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    color: white!important;
-    background-color: #bc6c25;
 }
-
 
 .campo{
     margin-bottom: 1em;
